@@ -1,0 +1,4 @@
+li:has([data-list-item-id^=private-channels-uid][data-list-item-id$=shop]),
+li:has([data-list-item-id^=private-channels-uid][data-list-item-id$=nitro]) {
+    display: none;
+}
